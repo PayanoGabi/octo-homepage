@@ -1,12 +1,28 @@
 // JavaScript source code
 
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello World';
+const myHeading = document.querySelector('btn-default');
+myHeading.textContent = 'Hello Girl!';
 
-document.getElementsByClassName("btn-default").addEventListener("click", myFunction);
+function winAlert() {
+    alert("Hello World :)");
+}
+
+   
+
 
 function myFunction() {
-    alert("Hello World!");
+    document.getElementById("sample").style.display = "none";
+    document.getElementById("hidden-section").style.display = "block";
 }
-myFunction();
 
+
+/*
+    var myObject = {
+        firstName: "John",
+        lastName: "Doe",
+        fullName: function () {
+            return this;
+        }
+    }
+    myObject.fullName();
+    */

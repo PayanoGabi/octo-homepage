@@ -159,7 +159,14 @@ h1 {
         transform: rotate(360deg);
         left: calc(100% - 102px);
     }
+    
 
+#hidden-section {
+    display:none;
+    background-color:gold;
+    padding:5%;
+
+}
 @media (min-width: 768px) {
     /* Pull out the header and footer */
     .masthead {
