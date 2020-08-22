@@ -15,6 +15,33 @@ function myFunction() {
     document.getElementById("hidden-section").style.display = "block";
 }
 
+$(document).ready(function () {
+    $('.shape-left,.shape-right,.shape-top').hover(function (e) {
+        if ($(this)[0].className == 'shape-left') {
+            $('.shape-left-outer').css('z-index', 5);
+        }
+        else if ($(this)[0].className == 'shape-right') {
+            $('.shape-right-outer').css('z-index', 5);
+        }
+        else if ($(this)[0].className == 'shape-top') {
+            $('.shape-top-outer').css('z-index', 5);
+        }
+
+    }, function (e) {
+        if ($(this)[0].className == 'shape-left') {
+            $('.shape-left-outer').css('z-index', 1);
+        }
+        else if ($(this)[0].className == 'shape-right') {
+            $('.shape-right-outer').css('z-index', 1);
+        }
+        else if ($(this)[0].className == 'shape-top') {
+            $('.shape-top-outer').css('z-index', 0);
+        }
+
+    });
+});
+
+
 
 /*
     var myObject = {
