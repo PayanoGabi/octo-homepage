@@ -8,8 +8,10 @@
 a,
 a:focus,
 a:hover {
-    color: #fff;
+    color: lightgrey;
+   
 }
+
 
 /* Custom default button */
 .btn-default,
@@ -163,10 +165,7 @@ h1 {
 
 #hidden-section {
     display: none;
-    background-color: gold;
-    padding: 5%;
-    max-width: 250px;
-    max-height: 250px;
+   
 }
 
 /*Button*/
@@ -175,22 +174,12 @@ h1 {
     padding:5%;
 }
 /*Windows CSS*/
-.test-container {
-    
-    
-    background-image: url("http://thetechservice.net/temp/OGMQFU0.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 250px;
-    max-height: 250px;
-}
 
 .shape-container {
-    position: relative;
-    width: 1245px;
-    height: 740px;
-    margin: 10px;
+    
+    width: 500px;
+    height: 250px;
+  
 }
 
 .test-txt {
@@ -407,7 +396,7 @@ h1 {
 
 .shape-right-far {
     position: absolute;
-    left: 511px;
+    left: 500px;
     bottom: 0;
     width: 66.5%;
     height: 40%;
