@@ -125,6 +125,7 @@ h1 {
 
 .cover {
     padding: 0 20px;
+    margin-top: 20%;
 }
 
     .cover .btn-lg {
@@ -141,7 +142,9 @@ h1 {
     color: #999; /* IE8 proofing */
     color: rgba(255, 255, 255, .5);
 }
-
+/*
+ *  Logo picture
+ */
 
 #sample {
     ... -webkit-transition: 5s ease-in-out;
@@ -151,6 +154,7 @@ h1 {
     border-radius:;
     border-style: none;
     border-radius: 220%;
+    max-width:60%;
 }
 
     #sample:hover {
@@ -168,10 +172,27 @@ h1 {
    
 }
 
+
+.bouncy{
+ animation:bouncy 5s infinite linear;
+ position:relative;
+}
+@keyframes bouncy {
+ 0%{top:0em}
+ 40%{top:0em}
+ 43%{top:-0.9em}
+ 46%{top:0em}
+ 48%{top:-0.4em}
+ 50%{top:0em}
+ 100%{top:0em;}
+}
+
 /*Button*/
 .btn btn-lg btn-default {
     color: black;
-    padding:5%;
+    padding: 5%;
+    animation: bouncy 5s infinite linear;
+  
 }
 /*Windows CSS*/
 
