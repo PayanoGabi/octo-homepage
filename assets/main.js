@@ -15,6 +15,12 @@ function myFunction() {
     document.getElementById("hidden-section").style.display = "block";
 }
 
+
+function exitWindows() {
+    document.getElementById("hidden-section").style.display = "none";
+    document.getElementById("sample").style.display = "revert";
+}
+
 $(document).ready(function () {
     $('.shape-left,.shape-right,.shape-top').hover(function (e) {
         if ($(this)[0].className == 'shape-left') {
