@@ -187,6 +187,12 @@ h1 {
  100%{top:0em;}
 }
 
+/*Reveret Button*/
+#exit-button {
+    z-index: 1000;
+    position: relative;
+}
+
 /*Button*/
 .btn btn-lg btn-default {
     color: black;
